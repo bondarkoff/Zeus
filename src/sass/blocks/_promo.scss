@@ -1,0 +1,33 @@
+.promo {
+    position: relative;
+    padding-top: 115px;
+    height: 575px;
+    &__text {
+        margin: 0 auto;
+        width: 856px;
+        &-title {
+            font-family: 'Syne';
+            font-size: 80px;
+            line-height: 96px;
+            font-weight: 700;
+            text-align: center;
+        }
+        &-subtitle {
+            margin-top: 32px;
+        }
+        &-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.logo {
+    height: 120px;
+    padding-top: 40px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}

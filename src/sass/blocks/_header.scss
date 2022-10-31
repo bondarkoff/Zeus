@@ -1,19 +1,35 @@
 .header {
-    position: relative;
-    height: 76px;
+    padding-top: 15px;
 }
 
 .menu {
-    align-items: center;
     &__left, &__right {
-        width: 33%;
         display: flex;
-        // justify-content: space-between;
         align-items: center;
         &-item {
-            text-decoration: none;
             justify-content: space-between;
             list-style-type: none;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                font-family: 'Space Grotesk';
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                margin-right: 20px;
+                text-decoration: none;
+                color: $black;
+                opacity: 0.5;
+                transition: all .2s linear;
+                &:hover {
+                    opacity: 1;
+                }
+            }
         }
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
     }
 }
