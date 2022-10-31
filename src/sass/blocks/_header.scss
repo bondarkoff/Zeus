@@ -1,0 +1,19 @@
+.header {
+    position: relative;
+    height: 76px;
+}
+
+.menu {
+    align-items: center;
+    &__left, &__right {
+        width: 33%;
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        &-item {
+            text-decoration: none;
+            justify-content: space-between;
+            list-style-type: none;
+        }
+    }
+}
