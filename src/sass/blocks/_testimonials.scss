@@ -1,0 +1,39 @@
+.testimonials {
+    z-index: 0;
+    background: #FCFAFF;
+    padding: 80px 0 80px 0;
+    &__wrapper {
+        margin-top: 80px;
+        gap: 32px;
+        display: grid;
+        grid-template-columns: repeat(3, 412px);
+        grid-auto-rows: max-content;
+    }
+    &__item {
+        height: max-content;
+        padding: 24px;
+        background: #FFFFFF;
+        border: 1px solid #D6BCFA;
+        border-radius: 10px;
+        &-text {
+            margin-top: 20px;
+            text-align: left;
+        }
+    }
+    &__user {
+        display: flex;
+        align-items: center;
+        img {
+            height: 48px;
+            width: 48px;
+            object-fit: fill;
+        }
+        &-nickname {
+            color: #000;
+            opacity: .5;
+        }
+        &-photo {
+            margin-right: 10px;
+        }
+    }
+}
