@@ -1,6 +1,6 @@
 .promo {
     z-index: 1;
-    background: #FCFAFF;
+    background: $background;
     position: relative;
     height: 575px;
     &__text {
@@ -37,7 +37,7 @@
 }
 
 .logo {
-    background: #FCFAFF;
+    background: $background;
     z-index: 2;
     height: 120px;
     padding-top: 40px;
